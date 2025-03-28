@@ -19,15 +19,15 @@
     <section>
         <div>
         <h1>Markup achievement</h1>
-            <span></span>
-            <button><a href=""></a></button>
+            <p>The harder you work for something, the greater you’ll feel when you achieve it.</p>
+            <button>LEARN MORE</button>
         </div>
         <img src="./assets/images/image-1.png" alt="">
     </section>
     <section>
         <h2>Rates</h2>
-        <span>Failure will never overtake me if my determination to succeed is strong enough.</span>
-        <table border="5">
+        <p>Failure will never overtake me if my determination to succeed is strong enough.</p>
+        <table>
             <tr>
                 <td>Features</td>
                 <td>Standart</td>
@@ -73,27 +73,28 @@
                 Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The majority of people pay little attention to dreams. Dreams can help us find solutions to our daily problems and see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be, regardless of the fact that in real life.
             </p>
             <ul>
-                <li><img src="./assets/images/check.png" alt="">Easy setup, fast start</li>
-                <li><img src="./assets/images/check.png" alt="">Free forever for core features</li>
-                <li><img src="./assets/images/check.png" alt="">14-day trial of premium features</li>
+                <li>Easy setup, fast start</li>
+                <li>Free forever for core features</li>
+                <li>14-day trial of premium features</li>
             </ul>
         </div>
         <form action="" method="post">
             <input type="text" name="FullName" id="FullName" placeholder="Full Name*">
             <input type="email" name="email" placeholder="Email*">
             <input type="password" name="password" placeholder="Password*">
-            <input type="date" name="birthday" id="birthday" placeholder="Date of Birth">
-            <select> name="country" multiple>
-                <option value="Russia">Russia</option>
+            <input type="date" name="birthday" id="birthday">
+            <select>
+                <option selected disabled>Country</option>
+                <option value="China">China</option>
                 <option value="Belarus">Belarus</option>
-                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="USA">USA</option>
             </select>
-            <label>
-                <input type="radio" name="direction" value="Frontend" checked>
+            <label for="front">
+                <input id="front" type="radio" name="direction" value="Frontend" checked>
                 Frontend
             </label>
-            <label>
-                <input type="radio" name="direction" value="Backend">
+            <label for="back">
+                <input id="back" type="radio" name="direction" value="Backend">
                 Backend
             </label>
             <fieldset>
@@ -101,24 +102,22 @@
                 <label>
                     <input type="checkbox" name="Technologies" value="HTML" checked>
                     HTML
-                </lable>
-                <lable>
+                </label>
+                <label>
                     <input type="checkbox" name="Technologies" value="CSS" checked>
                     CSS
-                </lable>
-                <lable>
+                </label>
+                <label>
                     <input type="checkbox" name="Technologies" value="React">
                     React
                 </label>
-                <lable>
+                <label>
                     <input type="checkbox" name="Technologies" value="Styled components">
                     Styled components
                 </label>
             </fieldset>
-            <textarea name="" placeholder="Something else about you..."></textarea>
+            <textarea placeholder="Something else about you..."></textarea>
             <input type="submit" value="REGISTRATION">
-
-
         </form>
     </section>
     <footer>
